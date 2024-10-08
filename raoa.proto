@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+
+
+// The greeting service definition.
+service AgeCalculator {
+  // Sends a greeting
+  rpc TellAge (AgeRequest) returns (AgeReply) {}
+}
+
+// The request message containing the user's birth year.
+message AgeRequest {
+  int32 birthYear = 1;
+}
+
+// The response message containing the age.
+message AgeReply {
+  string message = 1;
+}
+//username: raoafaria
+//email:raoafariakarim20@gmail.com
+//password: 328QGzkMN@BZMLM
