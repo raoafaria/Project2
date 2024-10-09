@@ -17,6 +17,3 @@ message AgeRequest {
 message AgeReply {
   string message = 1;
 }
-//username: raoafaria
-//email:raoafariakarim20@gmail.com
-//password: 328QGzkMN@BZMLM
