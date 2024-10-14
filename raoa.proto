@@ -1,7 +1,5 @@
 syntax = "proto3";
 
-
-
 // The greeting service definition.
 service AgeCalculator {
   // Sends a greeting

@@ -8,7 +8,7 @@ import raoa_pb2_grpc
 # Implement the Greeter service
 class AgeCalculatorServicer(raoa_pb2_grpc.AgeCalculatorServicer):
 
-    def TellAge(self, request, context):
+    def TellAge(self, request):
         response = raoa_pb2.AgeReply()
         response.message = f"You are, {2024 - request.birthYear} years old!"
         return response

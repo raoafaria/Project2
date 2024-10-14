@@ -2,6 +2,12 @@ syntax = "proto3";
 
 option java_package = "com.petadoption";
 option java_outer_classname = "PetAdoptionProto";
+option objc_class_prefix = "PA";
+option java_multiple_files = true;
+
+
+package petadoptionserver;
+
 
 // gRPC service definition for Pet Adoption System
 service PetAdoptionService {
@@ -30,7 +36,7 @@ message RegisterPetRequest {
     string gender = 2;      // Required: Gender of the pet (Male/Female)
     int32 age = 3;          // Required: Age of the pet (must be >= 0)
     string breed = 4;       // Required: Breed of the pet (must be non-empty)
-    bytes picture = 5;      // Optional: Picture of the pet (binary data)
+    bytes picture = 5;      // Required: Picture of the pet (binary data)
 }
 
 // Response message for registering a new pet
@@ -42,7 +48,7 @@ message RegisterPetResponse {
 
 // Message for updating an existing pet's details
 message UpdatePetRequest {
-    int32 pet_id = 1;       // Required: Unique ID of the pet to update
+    string pet_id = 1;       // Required: Unique ID of the pet to update
     string name = 2;        // Optional: New name of the pet
     string gender = 3;      // Optional: New gender of the pet (Male/Female)
     int32 age = 4;          // Optional: New age of the pet (must be >= 0)
@@ -58,7 +64,7 @@ message UpdatePetResponse {
 
 // Message to delete a pet by its unique ID
 message DeletePetRequest {
-    int32 pet_id = 1;       // Required: Unique ID of the pet to delete
+    string pet_id = 1;       // Required: Unique ID of the pet to delete
 }
 
 // Response message for deleting a pet
@@ -95,17 +101,18 @@ message ListPetsResponse {
 
 // Message to get a specific pet's details by its unique ID
 message GetPetRequest {
-    int32 pet_id = 1;       // Required: Unique ID of the pet
+    string pet_id = 1;       // Required: Unique ID of the pet
 }
 
 // Response message for retrieving detailed information of a specific pet
 message GetPetResponse {
     Pet pet = 1;            // The complete pet object with all its details
+    string message = 2;
 }
 
 // Define the structure of a pet (used in responses)
 message Pet {
-    int32 pet_id = 1;       // Unique ID of the pet
+    string pet_id = 1;       // Unique ID of the pet
     string name = 2;        // Name of the pet
     string gender = 3;      // Gender of the pet
     int32 age = 4;          // Age of the pet
