@@ -1,0 +1,7 @@
+./build/install/project2_q2/bin/age-calculator-client <Int-Age>
+./build/install/project2_q2/bin/age-calculator-client --help
+./build/install/project2_q2/bin/age-calculator-server
+
+./gradlew installDist  
+
+gradle clean
