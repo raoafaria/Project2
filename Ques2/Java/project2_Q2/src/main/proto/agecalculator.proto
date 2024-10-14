@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "io.grpc.agecalculator";
+option java_outer_classname = "AgeCalculatorProto";
+option objc_class_prefix = "AC";
+
+package agecalculator;
+
+service AgeCalculator {
+  rpc TellAge (AgeRequest) returns (AgeReply) {}
+}
+message AgeRequest {
+  int32 birthYear = 1;
+}
+message AgeReply {
+  string message = 1;
+}
