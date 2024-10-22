@@ -5,10 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86cd7fa4-3612-4a2e-ae17-e40e2bebca38" name="Changes" comment="Init Commit">
+      <change afterPath="$PROJECT_DIR$/Client/age_calculator.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/com/example/agecalculator/AgeCalculatorServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/proto/age_calculator.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ques3/pet-adoption-server/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ques3/pet-adoption-server/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ques3/pet-adoption-server/commands.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ques3/pet-adoption-server/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ques3/pet-adoption-server/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ques3/pet-adoption-server/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ques3/pet-adoption-server/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ques3/pet-adoption-server/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ques3/pet-adoption-server/src/main/java/com/petadoption/PetAdoptionServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ques3/pet-adoption-server/src/main/java/com/petadoption/PetAdoptionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ques3/pet-adoption-server/src/main/proto/petadoption.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ques3/pet-adoption-server/src/test/java/com/petadoption/PetAdoptionServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ques3/pet_adoption.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ques3/pet_adoption_pb2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ques3/pet_adoption_pb2_grpc.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pet_adoption.proto" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pet_adoption_client.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/raoa_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/raoa_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raoa.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raoa_client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raoa_pb2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raoa_pb2_grpc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raoa_server.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +58,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/grpc/grpc&quot;,
-    &quot;accountId&quot;: &quot;d4e770ca-abad-40dc-995f-db27fcd9f601&quot;
+    &quot;url&quot;: &quot;https://github.com/raoafaria/Project2.git&quot;,
+    &quot;accountId&quot;: &quot;0198f9ad-490f-4bc3-8535-755ae998f42e&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -47,15 +71,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.pet_adoption_client.executor&quot;: &quot;Run&quot;,
-    &quot;Python.raoa_client.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.pet_adoption_client.executor": "Run",
+    "Python.raoa_client.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/tameem/PycharmProjects/Project2/Client",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Client" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="pet_adoption_client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Project2" />
@@ -70,6 +104,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pet_adoption_client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -79,16 +114,12 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.pet_adoption_client" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-ce3d9afa04ac-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.20224.347" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.22855.92" />
+        <option value="bundled-python-sdk-b068d85d1acf-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.22855.92" />
       </set>
     </attachedChunks>
   </component>
@@ -100,6 +131,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728283048050</updated>
+      <workItem from="1729555619588" duration="203000" />
+      <workItem from="1729558500688" duration="204000" />
+      <workItem from="1729559408311" duration="10000" />
+      <workItem from="1729559423540" duration="100000" />
     </task>
     <task id="LOCAL-00001" summary="Init Commit">
       <option name="closed" value="true" />
@@ -128,19 +163,11 @@
     <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init Commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Init Commit" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/grpc/examples/python/helloworld/greeter_server.py</url>
-          <line>15</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
