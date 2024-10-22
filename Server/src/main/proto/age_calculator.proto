@@ -1,0 +1,21 @@
+
+syntax = "proto3";
+
+option java_package = "com.example.agecalculator";
+option java_outer_classname = "AgeCalculatorProto";
+
+// The greeting service definition.
+service AgeCalculator {
+  // Sends a greeting
+  rpc TellAge (AgeRequest) returns (AgeReply) {}
+}
+
+// The request message containing the user's birth year.
+message AgeRequest {
+  int32 birthYear = 1;
+}
+
+// The response message containing the age.
+message AgeReply {
+  string message = 1;
+}
