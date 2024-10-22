@@ -5,34 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86cd7fa4-3612-4a2e-ae17-e40e2bebca38" name="Changes" comment="Init Commit">
-      <change afterPath="$PROJECT_DIR$/Client/age_calculator.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/main/java/com/example/agecalculator/AgeCalculatorServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/main/proto/age_calculator.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/age_calculator_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/com/example/agecalculator/AgeCalculatorClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Project2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Project2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ques3/pet-adoption-server/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ques3/pet-adoption-server/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ques3/pet-adoption-server/commands.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ques3/pet-adoption-server/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ques3/pet-adoption-server/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ques3/pet-adoption-server/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ques3/pet-adoption-server/logging.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ques3/pet-adoption-server/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ques3/pet-adoption-server/src/main/java/com/petadoption/PetAdoptionServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ques3/pet-adoption-server/src/main/java/com/petadoption/PetAdoptionServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ques3/pet-adoption-server/src/main/proto/petadoption.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ques3/pet-adoption-server/src/test/java/com/petadoption/PetAdoptionServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ques3/pet_adoption.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ques3/pet_adoption_pb2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ques3/pet_adoption_pb2_grpc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet_adoption.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet_adoption_client.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/raoa.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/raoa_client.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/raoa_pb2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/raoa_pb2_grpc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/raoa_server.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +57,11 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/tameem/PycharmProjects/Project2/Client",
+    "last_opened_file_path": "/home/tameem/PycharmProjects/Project2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
@@ -135,6 +117,9 @@
       <workItem from="1729558500688" duration="204000" />
       <workItem from="1729559408311" duration="10000" />
       <workItem from="1729559423540" duration="100000" />
+      <workItem from="1729560025541" duration="71000" />
+      <workItem from="1729563457217" duration="158000" />
+      <workItem from="1729564138279" duration="432000" />
     </task>
     <task id="LOCAL-00001" summary="Init Commit">
       <option name="closed" value="true" />
